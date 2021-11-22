@@ -3,7 +3,7 @@ install 88x2bu USB wifi onto Synology
 1. copy 88x2bu.ko into  /lib/modules/88x2bu.ko
 2. chmod 644 88x2bu.ko
 3. insmod /lib/modules/88x2bu.ko
-4. lsusb to find the USB wifi aaaa:bbbb
+4. lsusb to find the USB info like "|__1-3         aaaa:bbbb:cccc 00  2.10  480MBit/s 500mA 1IF  (Realtek 802.11ac NIC 123456)"
 5. echo "(aaaa:bbbb,rtl88x2bu)" >> /lib/udev/devicetable/usb.wifi.table
 6. nano /lib/udev/script/usb-wifi-util.sh
 7. Added between the other rtl-modules lines:
