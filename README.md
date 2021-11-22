@@ -14,3 +14,5 @@ select_modules - section
 modules=${RTL88X2BU_MODULES}
 ;;
 DONE
+
+tested on DS3615xs,DSM 6.2-23739
