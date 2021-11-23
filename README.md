@@ -14,6 +14,6 @@ select_modules - section
 modules=${RTL88X2BU_MODULES}
 ;;
 
-tested on DS3615xs,DSM 6.2-23739
+tested on DS3615xs,DSM 6.2-23739,COMFAST 812AC(https://u.jd.com/2K5uFFS)
 
 thx alot to https://github.com/cilynx/rtl88x2BU_WiFi_linux_v5.3.1_27678.20180430_COEX20180427-5959/issues/10
